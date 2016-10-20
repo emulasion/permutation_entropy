@@ -40,7 +40,7 @@ def pype(time_series, m, delay=1):
 time_series = np.ascontiguousarray(np.random.normal(0,1, 1000))
 
 # embedding dimension
-n = 4
+n = 6
 
 print "C++ code, 'full_array_stat' method"
 c_pe = cpe(time_series, n, "full_array_stat")
